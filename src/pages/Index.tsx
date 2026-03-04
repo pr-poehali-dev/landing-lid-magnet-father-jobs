@@ -9,10 +9,10 @@ const benefits = [
 ];
 
 const CtaButtons = () => (
-  <div className="flex flex-col sm:flex-row gap-4">
+  <div className="flex flex-col sm:flex-row items-center gap-3">
     <a
       href="#"
-      className="flex-1 flex items-center justify-center gap-3 bg-[#0077FF] hover:bg-[#0060cc] text-white font-montserrat font-bold text-base sm:text-lg py-5 px-6 rounded-2xl shadow-lg transition-all duration-200 hover:scale-[1.03] hover:shadow-xl"
+      className="w-full sm:flex-1 flex items-center justify-center gap-3 bg-[#0077FF] hover:bg-[#0060cc] text-white font-montserrat font-bold text-base sm:text-lg py-5 px-6 rounded-2xl shadow-lg transition-all duration-200 hover:scale-[1.03] hover:shadow-xl"
     >
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path d="M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12Z" fill="#0077FF"/>
@@ -20,9 +20,10 @@ const CtaButtons = () => (
       </svg>
       Смотреть ВКонтакте
     </a>
+    <span className="text-gray-400 font-montserrat font-bold text-sm shrink-0">ИЛИ</span>
     <a
       href="#"
-      className="flex-1 flex items-center justify-center gap-3 bg-[#ffA500] hover:bg-[#e69400] text-white font-montserrat font-bold text-base sm:text-lg py-5 px-6 rounded-2xl shadow-lg transition-all duration-200 hover:scale-[1.03] hover:shadow-xl"
+      className="w-full sm:flex-1 flex items-center justify-center gap-3 bg-[#005BB5] hover:bg-[#004a96] text-white font-montserrat font-bold text-base sm:text-lg py-5 px-6 rounded-2xl shadow-lg transition-all duration-200 hover:scale-[1.03] hover:shadow-xl"
     >
       <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
         <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2Zm4.93 7.07-1.75 8.23c-.13.58-.47.72-.95.45l-2.62-1.93-1.26 1.22c-.14.14-.26.26-.53.26l.19-2.68 4.87-4.4c.21-.19-.05-.29-.33-.1L7.9 14.73l-2.56-.8c-.56-.17-.57-.56.12-.83l10-3.85c.46-.17.87.11.47 1.82Z" fill="white"/>
